@@ -608,7 +608,7 @@
     -------------------------------------------*/
     if ($(".partners-slider").length) {
         $(".partners-slider").owlCarousel({
-            autoplay:true,
+            autoplay:false,
             smartSpeed: 300,
             margin: 30,
             loop:true,
@@ -618,19 +618,19 @@
             nav:false,
             responsive: {
                 0 : {
-                    items: 2
+                    items: 1
                 },
 
                 550 : {
-                    items: 3
+                    items: 1
                 },
 
                 992 : {
-                    items: 4
+                    items: 1
                 },
 
                 1200 : {
-                    items: 5
+                    items: 1
                 }
             }
         });
@@ -817,13 +817,13 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2022/04/14', function(event) {
+        $('#clock').countdown('2023/07/29', function(event) {
             var $this = $(this).html(event.strftime(''
-            + '<div class="box"><div><div class="time">%m</div> <span>Month</span> </div></div>'
-            + '<div class="box"><div><div class="time">%D</div> <span>Days</span> </div></div>'
-            + '<div class="box"><div><div class="time">%H</div> <span>Hours</span> </div></div>'
-            + '<div class="box"><div><div class="time">%M</div> <span>Mins</span> </div></div>'
-            + '<div class="box"><div><div class="time">%S</div> <span>Secs</span> </div></div>'));
+            + '<div class="box"><div><div class="time">%m</div> <span>Meses</span> </div></div>'
+            + '<div class="box"><div><div class="time">%D</div> <span>Dias</span> </div></div>'
+            + '<div class="box"><div><div class="time">%H</div> <span>Horas</span> </div></div>'
+            + '<div class="box"><div><div class="time">%M</div> <span>Minutos</span> </div></div>'
+            + '<div class="box"><div><div class="time">%S</div> <span>Segundos</span> </div></div>'));
         });
     }
 
