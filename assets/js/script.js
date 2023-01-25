@@ -123,13 +123,16 @@
 
 
     $("body").on("click", function() {
-        $('.navigation-holder').removeClass('slideInn');
+      $('.navigation-holder').removeClass('slideInn');
     });
     $(".menu-close").on("click", function() {
-        $('.navigation-holder').removeClass('slideInn');
+      $('.navigation-holder').removeClass('slideInn');
+    });
+		$("#navbar > ul > li > a[href^='#']").on("click", function() {
+      $('.navigation-holder').removeClass('slideInn');
     });
     $(".menu-close").on("click", function() {
-        $('.open-btn').removeClass('x-close');
+      $('.open-btn').removeClass('x-close');
     });
 
 
