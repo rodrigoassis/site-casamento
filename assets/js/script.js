@@ -823,10 +823,8 @@
         $('#clock').countdown('2023/07/29', function(event) {
             var $this = $(this).html(event.strftime(''
             + '<div class="box"><div><div class="time">%m</div> <span>Meses</span> </div></div>'
-            + '<div class="box"><div><div class="time">%D</div> <span>Dias</span> </div></div>'
-            + '<div class="box"><div><div class="time">%H</div> <span>Horas</span> </div></div>'
-            + '<div class="box"><div><div class="time">%M</div> <span>Minutos</span> </div></div>'
-            + '<div class="box"><div><div class="time">%S</div> <span>Segundos</span> </div></div>'));
+            + '<div class="box"><div><div class="time">%n</div> <span>Dias</span> </div></div>'
+            ));
         });
     }
 
