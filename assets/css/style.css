@@ -6924,7 +6924,7 @@ static-hero-s4
 }
 @media (max-width: 767px) {
   .wpo-event-section {
-    padding-bottom: 70px;
+    padding-bottom: 10px;
   }
 }
 .wpo-event-section .wpo-event-wrap .wpo-event-item {
@@ -7013,7 +7013,7 @@ static-hero-s4
 }
 @media (max-width: 991px) {
   .wpo-blog-section-s3 {
-    padding-top: 90px;
+    padding-top: 0;
   }
 }
 
