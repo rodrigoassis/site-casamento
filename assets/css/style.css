@@ -4536,11 +4536,12 @@ static-hero-s4
 .wpo-site-footer .about-widget .logo {
   max-width: 180px;
   position: relative;
-  left: -55px;
+/*  left: -55px;*/
 }
 @media (max-width: 991px) {
   .wpo-site-footer .about-widget .logo {
-    left: -20px;
+/*    left: -20px;*/
+    margin: auto;
   }
 }
 .wpo-site-footer .about-widget {
