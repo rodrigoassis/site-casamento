@@ -3068,7 +3068,13 @@ img {
   text-align: center;
   background: rgba(134, 160, 182, 0.3);
   position: relative;
+  font-family: cursive;
 }
+
+.slide-content h2 {
+  font-family: cursive;
+}
+
 @media (max-width: 1199px) {
   .wpo-hero-slider .slide-inner .slide-content,
 .wpo-hero-slider .hero-inner .slide-content,
@@ -4545,6 +4551,7 @@ static-hero-s4
   }
 }
 .wpo-site-footer .about-widget {
+  text-align: center;
   padding-right: 45px;
   padding-left: 55px;
 }
