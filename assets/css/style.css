@@ -3380,7 +3380,7 @@ img {
   font-weight: 500;
   line-height: 60px;
   margin: 10px 0 35px;
-  color: #fff;
+  color: #002642;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -3415,10 +3415,9 @@ img {
 .static-hero .slide-text p,
 .wpo-hero-slider-s2 .slide-text p {
   font-size: 30px;
-  color: #fff;
   line-height: 45px;
   max-width: 780px;
-  color: #fff;
+  color: #002642;
   margin: 0 auto;
   margin-bottom: 30px;
 }
