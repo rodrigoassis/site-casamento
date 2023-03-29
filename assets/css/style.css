@@ -3068,11 +3068,6 @@ img {
   text-align: center;
   background: rgba(134, 160, 182, 0.3);
   position: relative;
-  font-family: cursive;
-}
-
-.slide-content h2 {
-  font-family: cursive;
 }
 
 @media (max-width: 1199px) {
@@ -3380,7 +3375,7 @@ img {
   font-weight: 500;
   line-height: 60px;
   margin: 10px 0 35px;
-  color: #002642;
+  color: #fff;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -3417,7 +3412,7 @@ img {
   font-size: 30px;
   line-height: 45px;
   max-width: 780px;
-  color: #002642;
+  color: #fff;
   margin: 0 auto;
   margin-bottom: 30px;
 }
