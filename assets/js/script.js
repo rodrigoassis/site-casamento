@@ -816,7 +816,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        var nextYear = moment.tz("2023-07-29 15:30", "America/Sao_Paulo");
+        var nextYear = moment.tz("2023-07-30 00:00", "America/Sao_Paulo");
         $('#clock').countdown(nextYear.toDate(), function(event) {
             var $this = $(this).html(event.strftime(''
             + '<div class="box"><div><div class="time">%m</div> <span>Meses</span> </div></div>'
